@@ -1,5 +1,5 @@
 homepage: "https://advertising.amazon.com"
-documentation: "https://github.com/amzn/ads-advanced-tools-docs/tree/main/conversions_api/events_api_google_tag_manager"
+documentation: "https://advertising.amazon.com/API/docs/en-us/guides/account-management/authorization/overview"
 versions:
-  - sha: PLACEHOLDER_SHA
+  - sha: 6377e389810c1e504cf35e7a81f7ace7d39248e8
     changeNotes: Initial release.
