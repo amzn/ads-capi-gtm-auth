@@ -2,6 +2,17 @@
 
 This Google Tag Manager server-side variable template generates and caches OAuth access tokens for the Amazon Ads API, for use with the [Amazon Events API Tag](https://github.com/amzn/ads-events-api-gtm-tag).
 
+## Key Features
+
+- Generates OAuth access tokens using the Amazon Ads API token endpoint
+- Caches tokens in GTM template storage to avoid redundant token requests
+- Automatically refreshes tokens before expiration with a 5-minute buffer (55-minute cache)
+- Validates stored tokens against the configured Client ID to prevent stale token reuse
+
+## Installation
+
+In your GTM server container, go to **Templates** → **Search Gallery**, search for the exact template name **Amazon CAPI Auth by amzn**, and add the template. This variable is a required companion to the [Amazon Events API Tag](https://github.com/amzn/ads-events-api-gtm-tag).
+
 ## Configuration
 
 After importing the template, create a new variable using the Amazon CAPI Auth template. The variable configuration includes:

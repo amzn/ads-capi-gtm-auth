@@ -12,7 +12,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Amazon CAPI Auth",
+  "displayName": "Amazon CAPI Auth by amzn",
   "description": "This variable generates access token for Amazon Ads API",
   "categories": ["ADVERTISING", "ANALYTICS", "CONVERSIONS"],
   "containerContexts": [
