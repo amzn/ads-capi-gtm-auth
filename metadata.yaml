@@ -1,5 +1,9 @@
 homepage: "https://advertising.amazon.com"
 documentation: "https://advertising.amazon.com/API/docs/en-us/guides/account-management/authorization/overview"
 versions:
+  # Latest version
+  - sha: 3f909e30ef184ba4cce6c00c0e4f9bc88f30820a
+    changeNotes: Add vendor name to template display name.
+  # Older versions
   - sha: 6377e389810c1e504cf35e7a81f7ace7d39248e8
     changeNotes: Initial release.
